@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "vvv";
+    src: url("vvv.eot"); /* IE9 */
+    src: url("vvv.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    
+    url("vvv.woff") format("woff"), /* chrome、firefox */
+    url("vvv.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    
+    url("vvv.svg#vvv") format("svg"); /* iOS 4.1- */
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*使用选择器指定字体*/
+pre {
+   font-family: 'vvv';
+}
+/*使用选择器指定字体*/
+.home h1, .demo > .test {
+    font-family: 'vvv';
+}
